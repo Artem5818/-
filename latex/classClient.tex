@@ -1,0 +1,101 @@
+\hypertarget{classClient}{}\doxysection{Класс Client}
+\label{classClient}\index{Client@{Client}}
+
+
+Класс для подключения к серверу  
+
+
+
+
+{\ttfamily \#include $<$Client.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classClient_a145c001086a9f6e47732d858155dcbb7}{Server}} (string str1, string str2)
+\begin{DoxyCompactList}\small\item\em Взаимодействие с сервером \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые атрибуты}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classClient_aad8864d1362eae7c50e53c0d131b7442}\label{classClient_aad8864d1362eae7c50e53c0d131b7442}} 
+int {\bfseries port}
+\item 
+\mbox{\Hypertarget{classClient_a575ca6818721fa6a7a613e16a7a0e821}\label{classClient_a575ca6818721fa6a7a613e16a7a0e821}} 
+double {\bfseries sum}
+\item 
+\mbox{\Hypertarget{classClient_ab96026cde30e4cc8611d227028529416}\label{classClient_ab96026cde30e4cc8611d227028529416}} 
+string {\bfseries msg}
+\item 
+\mbox{\Hypertarget{classClient_a3176862af90d5ac7c0e017047ff7fde9}\label{classClient_a3176862af90d5ac7c0e017047ff7fde9}} 
+string {\bfseries vector\+\_\+file}
+\item 
+\mbox{\Hypertarget{classClient_a671f0b892a09660e85d1157b6091b577}\label{classClient_a671f0b892a09660e85d1157b6091b577}} 
+string {\bfseries resultat\+\_\+file}
+\item 
+\mbox{\Hypertarget{classClient_a2ef88f3706b0115c9d3e5f120dc105c6}\label{classClient_a2ef88f3706b0115c9d3e5f120dc105c6}} 
+string {\bfseries autf\+\_\+file}
+\item 
+\mbox{\Hypertarget{classClient_aaf4f11ae80a7e8563bbdbac87b0687e8}\label{classClient_aaf4f11ae80a7e8563bbdbac87b0687e8}} 
+string {\bfseries username}
+\item 
+\mbox{\Hypertarget{classClient_aaad0e9cc721b2f6844a1608899bd2142}\label{classClient_aaad0e9cc721b2f6844a1608899bd2142}} 
+string {\bfseries pswd}
+\item 
+\mbox{\Hypertarget{classClient_afafe1e956e45d48d9d0f624105a1dc89}\label{classClient_afafe1e956e45d48d9d0f624105a1dc89}} 
+string {\bfseries line}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс для подключения к серверу 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em port} & порт \\
+\hline
+{\em sum} & сумма \\
+\hline
+{\em msg} & отправляемый хэш \\
+\hline
+{\em vector\+\_\+file} & имя файла для считывания векторов \\
+\hline
+{\em resultat\+\_\+file} & имя файла для записи суммы векторов \\
+\hline
+{\em autf\+\_\+file} & имя файла, в котором храняться логины и пароли клиентов \\
+\hline
+{\em username} & логин клиента \\
+\hline
+{\em line} & строка из файла \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classClient_a145c001086a9f6e47732d858155dcbb7}\label{classClient_a145c001086a9f6e47732d858155dcbb7}} 
+\index{Client@{Client}!Server@{Server}}
+\index{Server@{Server}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{Server()}{Server()}}
+{\footnotesize\ttfamily int Client\+::\+Server (\begin{DoxyParamCaption}\item[{string}]{str1,  }\item[{string}]{str2 }\end{DoxyParamCaption})}
+
+
+
+Взаимодействие с сервером 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em str1} & адрес сервера \\
+\hline
+{\em str2} & порт сервера \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Исключения}
+{\em \mbox{\hyperlink{classclient__error}{client\+\_\+error}}} & класс вызываемый при возникновении ошибки \\
+\hline
+\end{DoxyExceptions}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Client_8h}{Client.\+h}}\item 
+\mbox{\hyperlink{Client_8cpp}{Client.\+cpp}}\end{DoxyCompactItemize}
