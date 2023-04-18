@@ -1,0 +1,5 @@
+<map id="Client.h" name="Client.h">
+<area shape="rect" id="node1" title="Заголовочный файл для модуля Client." alt="" coords="67,5,139,32"/>
+<area shape="rect" id="node2" href="$Client_8cpp.html" title="Файл взаимодействие с сервером" alt="" coords="5,80,92,107"/>
+<area shape="rect" id="node3" href="$main_8cpp.html" title="Главный модуль программы для получения параметров от пользователя" alt="" coords="117,80,199,107"/>
+</map>
